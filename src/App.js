@@ -1,29 +1,43 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
-import 'react-bootstrap'
-import Nav from './Nav';
+
+import { BrowserRouter as Router, 
+  Route, 
+  Routes
+} from 'react-router-dom';
+
+import 'react-bootstrap';
 
 // Page imports
-import index from './pages';
-import about from './pages';
-import services from './pages';
-import testimonials from './pages';
-import PageNotFound from './pages';
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Testimonials from './Testimonials';
+// import PageNotFound from './PageNotFound';
+import Nav from './Nav';
 
 function App() {
   return (
-    < Router>
-      <Switch>
-      <Route exact path='/' component={index}/>;
-      <Route exact path='/about' component={about}/>;
-      <Route exact path='/services' component={services}/>;
-      <Route exact path='/testimonials' component={testimonials}/>;
-      <Route exact path="/PageNotFound" component={PageNotFound}/>;
-      <Redirect to="/PageNotFound"/>
-      </Switch>
-
+    <Router>
+      <div className="app">
+        <Nav />
+        <div className="content">
+          <Routes>
+            <Route path='/'>
+              <Home />
+            </Route>
+            <Route path='/about'>
+              <About />
+            </Route>
+            <Route path='/services'>
+              <Services />
+            </Route>
+            <Route path='/testimonials'>
+              <Testimonials />
+            </Route>
+          </Routes>
+        </div>
+      </div>
     </Router>
-    
   )
 }
 
