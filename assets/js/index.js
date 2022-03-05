@@ -1,2 +1,2 @@
-const bootstrap = require('bootstrap');
+import 'bootstrap';
 const anime = require('anime');
