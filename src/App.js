@@ -1,44 +1,31 @@
 import React from 'react';
-
-import { BrowserRouter as Router, 
-  Route, 
-  Routes
-} from 'react-router-dom';
-
+import { Routes, Route, Link } from 'react-router-dom';
 import 'react-bootstrap';
 
+// Component imports
+import Nav from './components/Nav';
+
 // Page imports
-import Nav from './Nav';
-import Home from './Home';
-import About from './About';
-import Services from './Services';
-import Testimonials from './Testimonials';
+import Home from './views/Home';
+import About from './views/About';
+import Services from './views/Services';
+import Testimonials from './views/Testimonials';
 
 
 function App() {
   return (
-    <Router>
-      <div className="app"> Hello!
-        <Nav />
-        <div className="content">
-          <Routes>
-            <Route path='/'>
-              <Home />
-            </Route>
-            <Route path='/about'>
-              <About />
-            </Route>
-            <Route path='/services'>
-              <Services />
-            </Route>
-            <Route path='/testimonials'>
-              <Testimonials />
-            </Route>
-          </Routes>
-        </div>
+    <div className="App">
+      <Nav />
+      <div className="content">
+      <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='about' element={<About />} />
+            <Route path='/services' element={<Services />} />
+            <Route path='/testimonials' element={<Testimonials />} />
+      </Routes>
       </div>
-    </Router>
-  )
+    </div>
+  );
 }
 
 export default App;
