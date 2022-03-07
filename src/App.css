@@ -15,7 +15,9 @@
 
 h1.title {
     font-family: 'Hatton-Light';
-    font-size: 3vw;
+    font-size: 2.25vw;
+    justify-content: center;
+    
 }
 
 a {
@@ -26,6 +28,42 @@ a {
 }
 
 .lpTitle {
-    font-family: 'Charlevoix-Thin';
-    font-size: 2vw;
+    font-family: 'Hatton-Light';
+    font-size: 6vw;
+    justify-content: center;
+    padding: 100px;
+}
+
+.navLink {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.linkNames {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 50%;
+    justify-self: flex-start;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
