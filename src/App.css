@@ -1,8 +1,31 @@
 @font-face {
-    font-family: 'Hatton Light';
-    src: url(./assets/fonts/PPHatton-Light.woff2);
+    font-family: 'Hatton-Light';
+    src: local('Hatton-Light'), url(./assets/fonts/PPHatton-Light.woff2) format('woff2');
 }
 
-h1 h2 h3 {
-    font-family: 'Hatton Light';
+@font-face {
+    font-family: 'Charlevoix-Regular';
+    src: local('Charlevoix-Regular'), url(./assets/fonts/PPCharlevoix-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Charlevoix-Thin';
+    src: local('Charlevoix-Thin'), url(./assets/fonts/PPCharlevoix-Thin.woff2) format('woff2');
+}
+
+h1.title {
+    font-family: 'Hatton-Light';
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Charlevoix-Regular';
+    color: black;
+    font-size: 1.25vw;
+}
+
+.lpTitle {
+    font-family: 'Charlevoix-Thin';
+    font-size: 2vw;
 }
