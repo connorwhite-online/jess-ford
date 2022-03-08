@@ -20,6 +20,14 @@ h1.title {
     
 }
 
+h1.title:hover {
+    letter-spacing: 2px;
+    transition-property: letter-spacing;
+    transition-duration: 1.5s;
+    transition-delay: 1s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 a {
     text-decoration: none;
     font-family: 'Charlevoix-Regular';
@@ -39,6 +47,11 @@ a {
     padding-bottom: 20px;
 }
 
+.navLink:hover, .navLink:focus {
+    transition: font-family .2s ease;
+    font-family: 'Charlevoix-Thin';
+}
+
 .linkNames {
     display: flex;
     flex-direction: column;
@@ -48,7 +61,6 @@ a {
     width: 100%;
     padding: 20px;
     display: flex;
-    position: absolute;
 }
 
 .menu {
