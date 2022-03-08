@@ -22,22 +22,19 @@ h1.title {
 
 h1.title:hover {
     letter-spacing: 2px;
-    transition-property: letter-spacing;
-    transition-duration: 1.5s;
-    transition-delay: 1s;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 2s ease-in-out;
 }
 
 a {
     text-decoration: none;
     font-family: 'Charlevoix-Regular';
     color: black;
-    font-size: 1.25vw;
+    
 }
 
 .lpTitle {
-    font-family: 'Hatton-Light';
-    font-size: 6vw;
+    font-family: 'Charlevoix-Thin';
+    font-size: 12vw;
     justify-content: center;
     padding: 100px;
 }
@@ -45,12 +42,13 @@ a {
 .navLink {
     width: 100%;
     padding-bottom: 20px;
+    font-size: 5vw;
 }
 
 .navLink:hover, .navLink:focus {
-    font-family: 'Charlevoix-Thin';
+    font-family: 'Charlevoix-Regular';
     letter-spacing: 2px;
-    transition: letter-spacing 2s ease;
+    transition: all 2s ease;
 }
 
 .linkNames {
@@ -60,37 +58,72 @@ a {
 
 .navigation {
     width: 100%;
-    padding: 20px;
     display: flex;
+    position: relative;
+    margin-bottom: 60px;
 }
 
 .menu {
-    width: 50%;
+    width: 20%;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    padding: 20px;
+}
+
+.linkNames {
+    display: none;
+}
+
+.menu-icon {
+    border: .5px solid black;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .logo {
-    width: 50%;
-    justify-self: flex-start;
+    width: 100%;
+    text-align: center;
 }
 
-.container {
+.home {
     display: flex;
     width: 100%;
     justify-content: center;
+    text-align: center;
 }
 
 .about {
     display: flex;
     justify-content: center;
+    overflow-x: none;
 }
 
 .bio-pic {
-    width: 25%;
+    width: 50%;
 }
 
 .bio-pic:hover {
-    transform: scale3d(1.2);
-    transition: all 2s ease;
+    border-radius: 50%, 0%;
+    transition: all 5s ease-in-out;
+}
+
+@media screen and (min-width: 720px) {
+    .bio-pic {
+        width: 25%;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .linkNames {
+        display: flex;
+    }
+    .navLink {
+        font-size: 1vw;
+    }
+    .lpTitle {
+        font-size: 2.25vw;
+    }
 }

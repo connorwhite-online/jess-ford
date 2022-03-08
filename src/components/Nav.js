@@ -9,11 +9,12 @@ export default function Nav() {
     <div className="navigation">
       <div className="menu">
         <div className="linkNames">
-          <Link className="navLink" to="/About">About</Link>
-          <Link className="navLink" to="/Services">Services</Link>
-          <Link className="navLink" to="/Testimonials">Testimonials</Link>
-          <Link className="navLink" to="/Contact">Contact</Link>
-        </div>  
+          <Link className="navLink" to="/About">ABOUT</Link>
+          <Link className="navLink" to="/Services">SERVICES</Link>
+          <Link className="navLink" to="/Testimonials">TESTIMONIALS</Link>
+          <Link className="navLink" to="/Contact">CONTACT</Link>
+        </div>
+        <div className='menu-icon'>Info</div>
       </div> 
       <div className="logo">
         <Link to="/"><h1 className="title">JESS FORD CARE</h1></Link>
