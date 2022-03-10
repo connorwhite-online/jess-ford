@@ -107,6 +107,7 @@ p {
 }
 
 .bio-pic {
+    align-self: center;
     width: 50%;
     padding: 5%;
 }
