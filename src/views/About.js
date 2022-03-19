@@ -8,9 +8,9 @@ export default function About() {
         <img src={biopic} alt="Jess Ford" width="100%" height="auto"></img>
       </div>
       <div className="bio-text">
-        <p>Jess’s approach to doula work is calm, encouraging and adaptive. She believes each experience is unique and will meet you where you are at in order to provide personalized care.
+        <p>Jess’s approach to doula work is calm, encouraging and adaptive. She believes each experience is unique and will meet you where you are at in order to provide personalized care. <br></br>
 
-<br></br>You can expect transparency when working with Jess, and she will work collaboratively to find the best methods and resources that work specifically for you.<br></br>  She will learn, grow and adapt alongside her clients and wants you to feel empowered and comforted the entire way.
+<br></br>You can expect transparency when working with Jess, and she will work collaboratively to find the best methods and resources that work specifically for you. She will learn, grow and adapt alongside her clients and wants you to feel empowered and comforted the entire way.<br></br>
 
 <br></br>She is passionate that your reproductive journey should be cared for with just as much intent no matter the circumstance, and wants you to be in enlightened, in control of your body and informed of your choices.
 
