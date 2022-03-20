@@ -5,7 +5,7 @@ import servicesMenu from '../components/servicesMenu'
 export default function Services() {
   return (
     <div className="services">
-      <servicesMenu />
+      <servicesMenu />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     </div>
   )
 }
