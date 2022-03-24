@@ -1,7 +1,5 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-// import 'react-bootstrap';
-// import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 // Component imports
@@ -21,10 +19,9 @@ function App() {
       <div className="content">
       <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='about' element={<About />} />
+            <Route path='/about' element={<About />} />
             <Route path='/services' element={<Services />} />
             <Route path='/testimonials' element={<Testimonials />} />
-            <Route path='/services/fertility' element={<Fertility />} />
       </Routes>
       </div>
     </div>
