@@ -1,7 +1,5 @@
 import React from 'react'
-import { Routes, Router, Link } from 'react-router-dom'
-import servicesMenu from '../components/servicesMenu'
-
+import { Routes, Route, Link } from 'react-router-dom'
 
 //Submenu Import
 import Fertility from './Fertility'
