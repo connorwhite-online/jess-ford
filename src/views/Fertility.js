@@ -14,9 +14,9 @@ export default function Fertility() {
                 </li>
                 <li><span>05</span>Weekly 1-Hour Zoom Meetings                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                 </li>
-                <li><span>06</span>Preparation for any/all medical visits (expectations, question to ask). 
+                <li><span>06</span>1st Trimester Support 
                 </li>
-                <li><span>07</span>Preparation for any/all medical visits (expectations, question to ask). 
+                <li><span>07</span>Loss Support 
                 </li>
             </ul>
         </div>
