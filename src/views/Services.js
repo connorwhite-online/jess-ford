@@ -10,7 +10,6 @@ import Pregnancy from './Pregnancy'
 export default function Services() {
   return (
     <div className="services">
-      <servicesMenu /> 
 
       <Routes>
         <Route path="fertility" element={<Fertility />} />
