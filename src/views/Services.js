@@ -1,11 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Routes, Router, Link } from 'react-router-dom'
 import servicesMenu from '../components/servicesMenu'
+
+//Submenu Import
+import Fertility from './Fertility'
 
 export default function Services() {
   return (
     <div className="services">
-      <servicesMenu />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+      <servicesMenu /> 
+
+      <Routes>
+        <Route path=":id" element={Fertility} />
+      </Routes>
+
     </div>
   )
 }
