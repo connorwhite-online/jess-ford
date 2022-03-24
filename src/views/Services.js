@@ -11,7 +11,10 @@ export default function Services() {
       <servicesMenu /> 
 
       <Routes>
-        <Route path=":id" element={Fertility} />
+        <Route path=":id" element={<Fertility />} />
+        <Route path=":id" element={<Fertility />} />
+        <Route path=":id" element={<Fertility />} />
+        <Route path=":id" element={<Fertility />} />
       </Routes>
 
     </div>
