@@ -6,6 +6,7 @@ export default ServiceList() {
     return(
         <div>
             <Link></Link>
+            <Link></Link>
         </div>
     )
 };
