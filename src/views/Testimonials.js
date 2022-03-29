@@ -2,6 +2,16 @@ import React from 'react'
 
 export default function Testimonials() {
   return (
-    <div>testimonials</div>
+    <div className="testimonials">
+      <div>
+      “We knew Jess was a good fit for us from the first “get-to-know-you” virtual meeting we had with her. We cancelled the second interview we had after meeting her! With so many unknowns, Jess quickly became our friend, family, counselor, cheerleader, &#38; confidant.  She provided many resources to meet us where we were at... on all levels - mind, body, spirit. With Jess’ help, I was able to work through fears &#38; feel very safe &#38; confident with our home-birth plan. Jess always made herself available to me, day or night, to just text thoughts &#38; feelings as I went through new challenges weekly &#38; bouts of exhaustion. She continued to send me very helpful resources throughout postpartum, and because she could see how helpful it had been for my husband &#38; I to talk with her as an objective third party, she continued to meet with us to discuss what worked for us &#38; what didn’t, what was “normal,” what we could change the following week, etc. For first time parents, &#38; especially for parents who were caught out of the country &#38; needed help navigating a new birth plan, Jess was an answered prayer! I do not believe we would have had such a smooth &#38; amazing birth had we not worked with her for weeks in advance to prepare us.”
+      </div>
+      <div>
+      “As the father, I can’t stress enough how beneficial it is to have a good doula.  You can be there and support your wife to the best of your ability, but your wife NEEDS a support system-there are too many things that you just don’t have answers or ideas for. I don’t know what we would have done without one; especially Jess-she was an invaluable addition to the team. It was so helpful to have a set of neutral eyes to help us rationalize our thought processes and ground us when overstressed- -she was so helpful and calming. Jess solely filled this role and because of her we had the perfect birthing experience!”
+      </div>
+      <div>
+      “Words cannot express the gratitude I have for Jess. As a first-time mom, I had no clue what to expect going into this experience. Jess assured me that we’d take it step by step and deal with everything as it came along. And that’s exactly what she helped me do.” 
+      </div>
+    </div>
   )
 }
