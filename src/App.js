@@ -8,8 +8,10 @@ import Nav from './components/Nav';
 // Page imports
 import Home from './views/Home';
 import About from './views/About';
-import Services from './views/Services';
+import Offerings from './views/Offerings';
 import Testimonials from './views/Testimonials';
+import Fertility from './views/Fertility';
+
 
 
 function App() {
@@ -20,8 +22,9 @@ function App() {
       <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/services' element={<Services />} />
+            <Route path='/offerings' element={<Offerings />} />
             <Route path='/testimonials' element={<Testimonials />} />
+            <Route path='/offerings/fertility' element={<Fertility />} />
       </Routes>
       </div>
     </div>
