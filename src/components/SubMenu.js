@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from "react-router-dom";
 
-export default ServiceList() {
+export default SubMenu() {
     return(
         <div>
             <Link></Link>
