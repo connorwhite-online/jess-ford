@@ -7,9 +7,9 @@ import PerinatalLoss from './PerinatalLoss'
 import BirthSupport from './BirthSupport'
 import Pregnancy from './Pregnancy'
 
-export default function Services() {
+export default function Offerings() {
   return (
-    <div className="services">
+    <div className="offerings">
 
       <Routes>
         <Route path="fertility" element={<Fertility />} />
