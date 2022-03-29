@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="menu">
         <div className="linkNames">
           <Link className="navLink" to="/About">ABOUT</Link>
-          <Link className="navLink" to="/Services" hasSubItem>SERVICES</Link>
+          <Link className="navLink" to="/Services" hasSubItem>OFFERINGS</Link>
           <Link className="navLink" to="/Testimonials">TESTIMONIALS</Link>
           <Link className="navLink" to="/Contact">CONTACT</Link>
         </div>
@@ -18,7 +18,7 @@ export default function Nav() {
         <Link to="/"><h1 className="title">JESS FORD CARE</h1></Link>
       </div>
       <div className="contact">
-        
+
       </div>
     </div>
   )
