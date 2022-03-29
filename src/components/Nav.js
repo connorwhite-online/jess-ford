@@ -16,8 +16,8 @@ export default function Nav() {
       </div> 
       <div className="logo">
         <Link to="/"><h1 className="title">JESS FORD CARE</h1></Link>
-      </div>
-      <div className="contact">
+      {/* </div>
+      <div className="contact"> */}
 
       </div>
     </div>

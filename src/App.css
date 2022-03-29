@@ -127,6 +127,36 @@ img:hover, img:active {
     padding: 5%;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.testimonial {
+    text-align: center;
+    width: 40%;
+    padding: 5%;
+    font-family: 'Charlevoix-Regular';
+    font-size: 1rem;
+
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calendly {
+    width: 75%;
+}
+
 @media screen and (min-width: 1080px) {
     .navigation {
         align-items: baseline;
