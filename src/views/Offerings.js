@@ -4,7 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 //Submenu Import
 import Fertility from './Fertility'
 import PerinatalLoss from './PerinatalLoss'
-import BirthSupport from './BirthSupport'
+import BirthSupport from './ArtTherapy'
 import Pregnancy from './Pregnancy'
 
 export default function Offerings() {

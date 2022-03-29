@@ -15,7 +15,7 @@ export default function Nav() {
         <div className='menu-icon'>Info</div>
       </div> 
       <div className="logo">
-        <Link to="/"><h1 className="title">JESS FORD CARE</h1></Link>
+        <Link to="/"><h1 className="title">JESS <br/> FORD <br/> CARE</h1></Link>
       {/* </div>
       <div className="contact"> */}
 

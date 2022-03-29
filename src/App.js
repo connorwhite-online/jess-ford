@@ -12,9 +12,9 @@ import Offerings from './views/Offerings';
 import Testimonials from './views/Testimonials';
 import Fertility from './views/Fertility';
 import Pregnancy from './views/Pregnancy';
-import BirthSupport from './views/BirthSupport';
 import PerinatalLoss from './views/PerinatalLoss';
 import Contact from './views/Contact';
+import ArtTherapy from './views/ArtTherapy';
 
 
 
@@ -31,7 +31,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/offerings/fertility' element={<Fertility />} />
             <Route path='/offerings/pregnancy' element={<Pregnancy />} />
-            <Route path='/offerings/birth-support' element={<BirthSupport />} />
+            <Route path='/offerings/art-therapy' element={<ArtTherapy />} />
             <Route path='/offerings/perinatal-loss' element={<PerinatalLoss />} />
       </Routes>
       </div>

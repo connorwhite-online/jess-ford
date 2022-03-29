@@ -13,9 +13,28 @@
     src: local('Charlevoix-Thin'), url(./assets/fonts/PPCharlevoix-Thin.woff2) format('woff2');
 }
 
+@font-face {
+    font-family: 'Culture';
+    src: url(./assets/fonts/Culture.woff2);
+}
+
+@font-face {
+    font-family: 'Culture Bold';
+    src: url(./assets/fonts/Culture-Bold.woff2);
+}
+@font-face {
+    font-family: 'Culture Bold Outline';
+    src: url(./assets/fonts/Culture-BoldOutline.woff2);
+}
+@font-face {
+    font-family: 'Culture Outline';
+    src: url(./assets/fonts/Culture-Outline.woff2);
+}
+
 h1.title {
-    font-family: 'Hatton-Light';
+    font-family: 'Culture';
     font-size: 5vw;
+    letter-spacing: .25rem;
     justify-content: center;
     transition: all 2s ease-in-out;
     
@@ -32,15 +51,27 @@ a {
     
 }
 
+.hero {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    /* justify-content: center; */
+}
+
+img.hero-img {
+    width: 20%;
+}
+
 p {
     font-family: 'Charlevoix-Regular';
 }
 
-.lpTitle {
-    font-family: 'Charlevoix-Thin';
-    font-size: 12vw;
+h2.lpTitle {
+    font-family: 'Culture';
+    font-size: 4rem;
     justify-content: center;
     padding: 100px;
+    z-index: 99;
 }
 
 .navLink {
@@ -110,16 +141,6 @@ p {
     align-self: center;
     width: 50%;
     padding: 5%;
-}
-
-img {
-    transition: all 2s ease;
-}
-
-img:hover, img:active {
-    border-radius: 0% 25% 0% 25%;
-    transition: all 2s ease;
-    
 }
 
 .bio-text {
