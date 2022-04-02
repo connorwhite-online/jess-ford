@@ -175,7 +175,8 @@ h2.lpTitle {
 }
 
 .calendly {
-    width: 75%;
+    width: 100%;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1080px) {
