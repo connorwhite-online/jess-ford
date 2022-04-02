@@ -1,19 +1,4 @@
 @font-face {
-    font-family: 'Hatton-Light';
-    src: local('Hatton-Light'), url(./assets/fonts/PPHatton-Light.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Charlevoix-Regular';
-    src: local('Charlevoix-Regular'), url(./assets/fonts/PPCharlevoix-Regular.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Charlevoix-Thin';
-    src: local('Charlevoix-Thin'), url(./assets/fonts/PPCharlevoix-Thin.woff2) format('woff2');
-}
-
-@font-face {
     font-family: 'Culture';
     src: url(./assets/fonts/Culture.woff2);
 }
@@ -54,9 +39,6 @@ a {
 
 .hero {
     width: 100%;
-    position: absolute;
-    z-index: 1;
-    /* justify-content: center; */
 }
 
 img.hero-img {
@@ -64,19 +46,17 @@ img.hero-img {
 }
 
 p {
-    font-family: 'Charlevoix-Regular';
+    font-family: 'Helvetica', sans-serif;
 }
 
 h2.lpTitle {
-    font-family: 'Culture';
-    font-size: 4rem;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2vw;
     justify-content: center;
-    padding: 100px;
-    z-index: 99;
 }
 
 .navLink {
-    font-family: 'Charlevoix-Thin';
+    font-family: 'Helvetica', sans-serif;
     width: 100%;
     padding-bottom: 20px;
     font-size: 5vw;
@@ -84,7 +64,7 @@ h2.lpTitle {
 }
 
 .navLink:hover, .navLink:focus {
-    font-family: '';
+    font-family: 'Helvetica', sans-serif;
     transition: all 2s ease;
 }
 
@@ -114,7 +94,7 @@ h2.lpTitle {
 }
 
 .menu-icon {
-    font-family: 'Charlevoix-Regular';
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
 }
 
@@ -146,6 +126,7 @@ h2.lpTitle {
 .bio-text {
     width: 90%;
     padding: 5%;
+    font-size: 3vw;
 }
 
 .testimonials {
@@ -162,8 +143,8 @@ h2.lpTitle {
     text-align: center;
     width: 40%;
     padding: 5%;
-    font-family: 'Charlevoix-Regular';
-    font-size: 1rem;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.25vw;
 
 }
 
@@ -217,5 +198,6 @@ h2.lpTitle {
     .bio-text {
         width: 25%;
         padding: 5%;
+        font-size: 1.25vw;
     }
 }
