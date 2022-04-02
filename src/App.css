@@ -37,11 +37,12 @@ h1.title {
     letter-spacing: .25rem;
     justify-content: center;
     transition: all 2s ease-in-out;
+    letter-spacing: 2px;
     
 }
 
 h1.title:hover {
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     transition: all 2s ease-in-out;
 }
 
@@ -75,7 +76,7 @@ h2.lpTitle {
 }
 
 .navLink {
-    font-family: 'Charlevoix-Regular';
+    font-family: 'Charlevoix-Thin';
     width: 100%;
     padding-bottom: 20px;
     font-size: 5vw;
@@ -83,8 +84,7 @@ h2.lpTitle {
 }
 
 .navLink:hover, .navLink:focus {
-    font-family: 'Charlevoix-Regular';
-    letter-spacing: 2px;
+    font-family: '';
     transition: all 2s ease;
 }
 
