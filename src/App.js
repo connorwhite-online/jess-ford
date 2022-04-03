@@ -29,13 +29,11 @@ function App() {
             <Route path='/offerings' element={<Offerings />}>
               <Route path='fertility' element={<Fertility />} />
               <Route path='pregnancy' element={<Pregnancy />} />
+              <Route path='perinatal-loss' element={<PerinatalLoss />} />
+              <Route path='art-therapy' element={<ArtTherapy />} />
             </Route>
             <Route path='/testimonials' element={<Testimonials />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/offerings/fertility' element={<Fertility />} />
-            <Route path='/offerings/pregnancy' element={<Pregnancy />} />
-            <Route path='/offerings/art-therapy' element={<ArtTherapy />} />
-            <Route path='/offerings/perinatal-loss' element={<PerinatalLoss />} />
       </Routes>
       </div>
     </div>
