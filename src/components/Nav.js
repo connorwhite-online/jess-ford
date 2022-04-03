@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Link } from "react-router-dom";
+import SubMenu from './SubMenu';
 
 export default function Nav() {
   return (
@@ -8,7 +9,9 @@ export default function Nav() {
       <div className="menu">
         <div className="linkNames">
           <Link className="navLink" to="/About">ABOUT</Link>
-          <Link className="navLink" to="/Services" hasSubItem>OFFERINGS</Link>
+          <Link className="navLink" to="/Services" hasSubItem>OFFERINGS
+            <SubMenu />
+          </Link>
           <Link className="navLink" to="/Testimonials">TESTIMONIALS</Link>
           <Link className="navLink" to="/Contact">CONTACT</Link>
         </div>
